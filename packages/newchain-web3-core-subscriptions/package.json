@@ -1,7 +1,7 @@
 {
     "name": "newchain-web3-core-subscriptions",
     "namespace": "newchain",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Manages web3 subscriptions. This is an internal package.",
     "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3-core-subscriptions",
     "license": "LGPL-3.0",
@@ -15,21 +15,21 @@
         "test:watch": "jest --watchAll"
     },
     "dependencies": {
+       "eventemitter3": "^3.1.0",
+       "lodash": "^4.17.11"
+   },
+    "devDependencies": {
         "@babel/core": "^7.4.0",
         "@babel/plugin-proposal-export-default-from": "^7.2.0",
         "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
         "@babel/plugin-transform-runtime": "^7.4.0",
         "@babel/preset-env": "^7.4.2",
         "@babel/runtime": "^7.4.2",
-        "eventemitter3": "^3.1.0",
-        "lodash": "^4.17.11",
         "rollup": "^1.7.0",
         "rollup-plugin-auto-external": "^2.0.0",
         "rollup-plugin-babel": "^4.3.2",
         "rollup-plugin-cleanup": "^3.1.1",
-        "rollup-plugin-json": "^4.0.0"
-    },
-    "devDependencies": {
+        "rollup-plugin-json": "^4.0.0",
         "definitelytyped-header-parser": "^1.0.1",
         "dtslint": "0.4.2",
         "newchain-web3-core-helpers": "^0.1.0",
