@@ -19,9 +19,9 @@
  * @date 2018
  */
 
-import {RLPEncodedTransaction} from 'web3-core';
-import {Personal} from 'web3-eth-personal';
-import {Accounts} from 'web3-eth-accounts';
+import {RLPEncodedTransaction} from 'newchain-web3-core';
+import {Personal} from 'newchain-web3-personal';
+import {Accounts} from 'newchain-web3-accounts';
 
 const personal = new Personal('http://localhost:7545');
 

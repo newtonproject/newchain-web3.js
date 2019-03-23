@@ -1,13 +1,13 @@
 {
-    "name": "web3-eth-personal",
-    "namespace": "ethereum",
-    "version": "1.0.0-beta.50",
-    "description": "Web3 module to interact with the Ethereum blockchain accounts stored in the node.",
-    "repository": "https://github.com/ethereum/web3.js/tree/1.0/packages/web3-eth-personal",
+    "name": "newchain-web3-personal",
+    "namespace": "newchain",
+    "version": "0.1.0",
+    "description": "Web3 module to interact with the NewChain blockchain accounts stored in the node.",
+    "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3-personal",
     "license": "LGPL-3.0",
-    "main": "dist/web3-eth-personal.cjs.js",
-    "module": "dist/web3-eth-personal.esm.js",
-    "browser": "dist/web3-eth-personal.umd.js",
+    "main": "dist/newchain-web3-personal.cjs.js",
+    "module": "dist/newchain-web3-personal.esm.js",
+    "browser": "dist/newchain-web3-personal.umd.js",
     "scripts": {
         "build": "rollup -c",
         "dev": "rollup -c -w",
@@ -17,17 +17,17 @@
     "types": "types",
     "dependencies": {
         "@babel/runtime": "^7.3.1",
-        "web3-core": "1.0.0-beta.50",
+        "newchain-web3-core": "^0.1.0",
         "web3-core-helpers": "1.0.0-beta.50",
-        "web3-core-method": "1.0.0-beta.50",
+        "newchain-web3-core-method": "^0.1.0",
         "web3-net": "1.0.0-beta.50",
         "web3-providers": "1.0.0-beta.50",
-        "web3-utils": "1.0.0-beta.50"
+        "newchain-web3-utils": "^0.1.0"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
         "dtslint": "0.4.2",
-        "web3-eth-accounts": "1.0.0-beta.50"
+        "newchain-web3-accounts": "^0.1.0"
     },
     "files": [
         "dist",
