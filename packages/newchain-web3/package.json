@@ -1,7 +1,7 @@
 {
     "name": "newchain-web3",
     "namespace": "newchain",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "NewChain JavaScript API",
     "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3",
     "license": "LGPL-3.0",
@@ -40,7 +40,7 @@
         "web3-core-helpers": "1.0.0-beta.50",
         "newchain-web3-core-method": "^0.1.0",
         "web3-eth": "1.0.0-beta.50",
-        "web3-eth-personal": "1.0.0-beta.50",
+        "newchain-web3-personal": "^0.1.0",
         "web3-net": "1.0.0-beta.50",
         "web3-providers": "1.0.0-beta.50",
         "web3-shh": "1.0.0-beta.50",
