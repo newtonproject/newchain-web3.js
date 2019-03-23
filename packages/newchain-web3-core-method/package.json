@@ -1,7 +1,7 @@
 {
     "name": "newchain-web3-core-method",
     "namespace": "newchain",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Handles the JSON-RPC methods. This package is also internally used by web3.",
     "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-newchain-web3-core-method",
     "license": "LGPL-3.0",
@@ -26,17 +26,17 @@
         "eventemitter3": "3.1.0",
         "lodash": "^4.17.11",
         "newchain-web3-core-subscriptions": "^0.1.0",
-        "rollup": "^1.7.0",
-        "rollup-plugin-auto-external": "^2.0.0",
-        "rollup-plugin-babel": "^4.3.2",
-        "rollup-plugin-cleanup": "^3.1.1",
-        "rollup-plugin-json": "^4.0.0",
         "rxjs": "^6.4.0"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
         "dtslint": "0.4.2",
-        "newchain-web3-core": "^0.1.0",
+        "rollup": "^1.7.0",
+        "rollup-plugin-auto-external": "^2.0.0",
+        "rollup-plugin-babel": "^4.3.2",
+        "rollup-plugin-cleanup": "^3.1.1",
+        "rollup-plugin-json": "^4.0.0",
+    	"newchain-web3-core": "^0.1.0",
         "newchain-web3-core-helpers": "^0.1.0",
         "newchain-web3-providers": "^0.1.0",
         "newchain-web3-utils": "^0.1.0"
