@@ -1,5 +1,5 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import * as Utils from 'newchain-web3-utils';
+import {formatters} from 'newchain-web3-core-helpers';
 import LogSubscription from '../../../../src/subscriptions/eth/LogSubscription';
 import AbstractWeb3Module from '../../../__mocks__/AbstractWeb3Module';
 import GetPastLogsMethod from '../../../__mocks__/GetPastLogsMethod';

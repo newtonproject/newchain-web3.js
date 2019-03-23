@@ -1,7 +1,7 @@
-# web3-core-subscriptions
+# newchain-web3-core-subscriptions
 
-This is a sub package of [web3.js][repo].
-The subscriptions package is used within some [web3.js][repo] packages.
+This is a sub package of [newchain-web3.js][repo].
+The subscriptions package is used within some [newchain-web3.js][repo] packages.
 
 If you would like to know all supported subscriptions please have a look in the ```src/subscriptions``` folder.
 
@@ -10,7 +10,7 @@ If you would like to know all supported subscriptions please have a look in the 
 ### Node.js
 
 ```bash
-npm install web3-core-subscriptions
+npm install newchain-web3-core-subscriptions
 ```
 
 ## Exported classes

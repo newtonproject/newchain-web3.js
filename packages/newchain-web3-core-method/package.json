@@ -20,6 +20,7 @@
         "@babel/runtime": "^7.3.1",
         "eventemitter3": "3.1.0",
         "rxjs": "^6.4.0",
+        "newchain-web3-core-subscriptions": "^0.1.0",
         "lodash": "^4.17.11"
     },
     "devDependencies": {
@@ -27,7 +28,6 @@
         "dtslint": "0.4.2",
         "newchain-web3-core": "^0.1.0",
         "newchain-web3-core-helpers": "^0.1.0",
-        "newchain-web3-core-subscriptions": "^0.1.0",
         "newchain-web3-providers": "^0.1.0",
         "newchain-web3-utils": "^0.1.0"
     },

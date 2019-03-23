@@ -1,5 +1,5 @@
-import * as Utils from 'web3-utils';
-import {formatters} from 'web3-core-helpers';
+import * as Utils from 'newchain-web3-utils';
+import {formatters} from 'newchain-web3-core-helpers';
 import NewHeadsSubscription from '../../../../src/subscriptions/eth/NewHeadsSubscription';
 
 // Mocks

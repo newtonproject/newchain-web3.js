@@ -1,4 +1,4 @@
-import {formatters} from 'web3-core-helpers';
+import {formatters} from 'newchain-web3-core-helpers';
 import SyncingSubscription from '../../../../src/subscriptions/eth/SyncingSubscription';
 
 // Mocks
