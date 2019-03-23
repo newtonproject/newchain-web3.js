@@ -1,6 +1,6 @@
 # web3-utils
 
-This is a sub package of [web3.js][repo]
+This is a sub package of [newchain-web3.js][repo]
 
 This contains useful utility functions for Dapp developers.   
 Please read the [documentation][docs] for more.
@@ -8,7 +8,7 @@ Please read the [documentation][docs] for more.
 ## Installation
 
 ```bash
-npm install web3-utils
+npm install newchain-web3-utils
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install web3-utils
 Import all of the utils functions
 
 ```js
-import * as Utils from 'web3-utils';
+import * as Utils from 'newchain-web3-utils';
 
 console.log(Utils);
 > {
@@ -41,4 +41,4 @@ console.log(asciiToHex('I have 100!'));
 All the typescript typings are placed in the types folder.
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
-[repo]: https://github.com/ethereum/web3.js
+[repo]: https://github.com/xiawu/newchain-web3.js
