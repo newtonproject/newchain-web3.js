@@ -6,5 +6,5 @@ module.exports = jestConfig({
     'Bzz': 'web3-bzz',
     'Network': 'web3-net',
     'Personal': 'web3-eth-personal',
-    'Utils': 'web3-utils'
+    'Utils': 'newchain-web3-utils'
 });

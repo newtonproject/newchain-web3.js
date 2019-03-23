@@ -17,8 +17,8 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module, Web3ModuleOptions} from 'web3-core';
-import {Utils} from 'web3-utils';
+import {AbstractWeb3Module, Web3ModuleOptions} from 'newchain-web3-core';
+import {Utils} from 'newchain-web3-utils';
 import * as net from 'net';
 import {provider} from 'web3-providers';
 import {Eth} from 'web3-eth';

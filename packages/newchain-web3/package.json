@@ -1,7 +1,7 @@
 {
     "name": "newchain-web3",
     "namespace": "newchain",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "NewChain JavaScript API",
     "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3",
     "license": "LGPL-3.0",
@@ -36,23 +36,27 @@
         "@babel/runtime": "^7.3.1",
         "@types/node": "^10.12.18",
         "web3-bzz": "1.0.0-beta.50",
-        "web3-core": "1.0.0-beta.50",
+        "newchain-web3-core": "^0.1.0",
         "web3-core-helpers": "1.0.0-beta.50",
-        "web3-core-method": "1.0.0-beta.50",
+        "newchain-web3-core-method": "^0.1.0",
         "web3-eth": "1.0.0-beta.50",
         "web3-eth-personal": "1.0.0-beta.50",
         "web3-net": "1.0.0-beta.50",
         "web3-providers": "1.0.0-beta.50",
         "web3-shh": "1.0.0-beta.50",
-        "web3-utils": "1.0.0-beta.50"
+        "newchain-web3-utils": "^0.1.0"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
-        "dtslint": "0.4.2"
+        "dtslint": "0.4.2",
+        "rollup-plugin-auto-external": "^2.0.0",
+        "rollup-plugin-babel": "^4.3.2",
+        "rollup-plugin-cleanup": "^3.1.1",
+        "rollup-plugin-json": "^4.0.0"
     },
     "files": [
         "dist",
         "types/index.d.ts",
         "angular-patch.js"
-    ],
+    ]
 }

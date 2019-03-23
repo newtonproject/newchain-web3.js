@@ -4,7 +4,7 @@ import {Shh} from 'web3-shh';
 import {Network} from 'web3-net';
 import {Personal} from 'web3-eth-personal';
 import {AbstractWeb3Module} from 'web3-core';
-import * as Utils from 'web3-utils';
+import * as Utils from 'newchain-web3-utils';
 import Web3 from '../../src/Web3';
 
 // Mocks
