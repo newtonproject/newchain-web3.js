@@ -1,0 +1,39 @@
+{
+    "name": "newchain-web3-core-method",
+    "namespace": "newchain",
+    "version": "0.1.0",
+    "description": "Handles the JSON-RPC methods. This package is also internally used by web3.",
+    "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-newchain-web3-core-method",
+    "license": "LGPL-3.0",
+    "main": "dist/newchain-newchain-web3-core-method.cjs.js",
+    "module": "dist/newchain-newchain-web3-core-method.esm.js",
+    "browser": "dist/newchain-newchain-web3-core-method.umd.js",
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "test": "jest",
+        "test:watch": "jest --watchAll",
+        "dtslint": "dtslint types --onlyTestTsNext"
+    },
+    "types": "types",
+    "dependencies": {
+        "@babel/runtime": "^7.3.1",
+        "eventemitter3": "3.1.0",
+        "rxjs": "^6.4.0",
+        "lodash": "^4.17.11"
+    },
+    "devDependencies": {
+        "definitelytyped-header-parser": "^1.0.1",
+        "dtslint": "0.4.2",
+        "newchain-web3-core": "^0.1.0",
+        "newchain-web3-core-helpers": "^0.1.0",
+        "newchain-web3-core-subscriptions": "^0.1.0",
+        "newchain-web3-providers": "^0.1.0",
+        "newchain-web3-utils": "^0.1.0"
+    },
+    "files": [
+        "dist",
+        "types/index.d.ts"
+    ],
+    "gitHead": "90353080483037843a55874729a6f22ae9217539"
+}

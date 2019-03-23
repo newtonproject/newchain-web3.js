@@ -11,7 +11,7 @@
         "allowSyntheticDefaultImports": false,
         "baseUrl": ".",
         "paths": {
-            "newchain-web3-core": ["."]
+            "newchain-web3-core-method": ["."]
         }
     }
 }

@@ -1,51 +1,27 @@
 {
-    "name": "web3",
-    "namespace": "ethereum",
-    "version": "1.0.0-beta.50",
-    "description": "Ethereum JavaScript API",
-    "repository": "https://github.com/ethereum/web3.js/tree/1.0/packages/web3",
+    "name": "newchain-web3",
+    "namespace": "newchain",
+    "version": "0.0.0",
+    "description": "NewChain JavaScript API",
+    "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3",
     "license": "LGPL-3.0",
-    "main": "dist/web3.cjs.js",
-    "module": "dist/web3.esm.js",
-    "browser": "dist/web3.umd.js",
+    "main": "dist/newchain-web3.cjs.js",
+    "module": "dist/newchain-web3.esm.js",
+    "browser": "dist/newchain-web3.umd.js",
     "bugs": {
-        "url": "https://github.com/ethereum/web3.js/issues"
+        "url": "https://github.com/xiawu/newchain-web3.js/issues"
     },
     "keywords": [
-        "Ethereum",
+        "NewChain",
         "JavaScript",
         "API"
     ],
-    "author": "ethereum.org",
+    "author": "newtonproject.org",
     "authors": [
         {
-            "name": "Samuel Furter",
-            "email": "samuel@ethereum.org",
-            "homepage": "https://github.com/nivida"
-        },
-        {
-            "name": "Fabian Vogelsteller",
-            "email": "fabian@ethereum.org",
-            "homepage": "https://github.com/frozeman"
-        },
-        {
-            "name": "Marek Kotewicz",
-            "email": "marek@parity.io",
-            "url": "https://github.com/debris"
-        },
-        {
-            "name": "Marian Oancea",
-            "url": "https://github.com/cubedro"
-        },
-        {
-            "name": "Gav Wood",
-            "email": "g@parity.io",
-            "homepage": "http://gavwood.com"
-        },
-        {
-            "name": "Jeffery Wilcke",
-            "email": "jeffrey.wilcke@ethereum.org",
-            "url": "https://github.com/obscuren"
+            "name": "Xia Wu",
+            "email": "xiawu@newtonproject.org",
+            "homepage": "https://github.com/xiawu"
         }
     ],
     "scripts": {
@@ -79,5 +55,4 @@
         "types/index.d.ts",
         "angular-patch.js"
     ],
-    "gitHead": "90353080483037843a55874729a6f22ae9217539"
 }

@@ -23,7 +23,7 @@ import isObject from 'lodash/isObject';
 import {fromPrivate, create, sign, decodeSignature} from 'newchain-lib/lib/account'; // TODO: Remove this dependency
 import uuid from 'uuid';
 import Hash from 'newchain-lib/lib/hash';
-import {isHexStrict, hexToBytes, randomHex, sha3} from 'web3-utils'; // TODO: Use the VO's of a web3-types module.
+import {isHexStrict, hexToBytes, randomHex, sha3} from 'newchain-web3-utils'; // TODO: Use the VO's of a web3-types module.
 const crypto = typeof global === 'undefined' ? require('crypto-browserify') : require('crypto');
 
 export default class Account {

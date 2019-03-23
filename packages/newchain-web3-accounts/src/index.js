@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import * as Utils from 'web3-utils';
+import * as Utils from 'newchain-web3-utils';
 import {formatters} from 'web3-core-helpers';
 import MethodFactory from './factories/MethodFactory';
 import AccountsModule from './Accounts';

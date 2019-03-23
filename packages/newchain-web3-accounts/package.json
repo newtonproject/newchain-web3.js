@@ -26,7 +26,7 @@
         "web3-core-helpers": "1.0.0-beta.50",
         "web3-core-method": "1.0.0-beta.50",
         "web3-providers": "1.0.0-beta.50",
-        "web3-utils": "1.0.0-beta.50"
+        "newchain-web3-utils": "^0.1.0"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
