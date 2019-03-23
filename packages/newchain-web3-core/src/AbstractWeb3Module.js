@@ -29,7 +29,7 @@ import {
     ProviderDetector,
     ProviderResolver
 } from 'web3-providers';
-import {MethodProxy} from 'web3-core-method';
+import {MethodProxy} from 'newchain-web3-core-method';
 import {toChecksumAddress} from 'newchain-web3-utils';
 
 export default class AbstractWeb3Module {

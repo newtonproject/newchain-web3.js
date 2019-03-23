@@ -20,12 +20,13 @@
         "@types/node": "^10.12.18",
         "lodash": "^4.17.11",
         "newchain-web3-utils": "^0.1.0",
-        "web3-core-method": "1.0.0-beta.50",
+        "newchain-web3-core-method": "^0.1.0",
         "web3-providers": "1.0.0-beta.50"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
-        "dtslint": "0.4.2"
+        "dtslint": "0.4.2",
+        "rollup-plugin-babel": "^4.3.2"
     },
     "files": [
         "dist",
