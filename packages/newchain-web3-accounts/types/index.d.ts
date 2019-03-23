@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import {AbstractWeb3Module, TransactionConfig, Web3ModuleOptions, SignedTransaction} from 'web3-core';
+import {AbstractWeb3Module, TransactionConfig, Web3ModuleOptions, SignedTransaction} from 'newchain-web3-core';
 import {provider} from 'web3-providers';
 import * as net from 'net';
 

@@ -1,4 +1,4 @@
-import * as Utils from 'web3-utils';
+import * as Utils from 'newchain-web3-utils';
 import {formatters} from 'web3-core-helpers';
 import Hash from 'newchain-lib/lib/hash';
 import RLP from 'newchain-lib/lib/rlp';
@@ -7,7 +7,7 @@ import {encodeSignature, recover} from 'newchain-lib/lib/account';
 import TransactionSigner from '../__mocks__/TransactionSigner';
 import Accounts from '../../src/Accounts';
 import Account from '../../src/models/Account';
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from 'newchain-web3-core';
 
 // Mocks
 jest.mock('formatters');

@@ -1,4 +1,4 @@
-import * as Utils from 'web3-utils';
+import * as Utils from 'newchain-web3-utils';
 import Wallet from '../../../src/models/Wallet';
 import Account from '../../../src/models/Account';
 import Accounts from '../../../src/Accounts';

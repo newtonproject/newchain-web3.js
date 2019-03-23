@@ -28,7 +28,7 @@ import RLP from 'newchain-lib/lib/rlp';
 import Bytes from 'newchain-lib/lib/bytes';
 import {encodeSignature, recover} from 'newchain-lib/lib/account'; // TODO: Remove this dependency
 import {hexToBytes, isHexStrict} from 'newchain-web3-utils'; // TODO: Use the VO's of a web3-types module.
-import {AbstractWeb3Module} from 'web3-core';
+import {AbstractWeb3Module} from 'newchain-web3-core';
 import Account from './models/Account';
 import Wallet from './models/Wallet';
 

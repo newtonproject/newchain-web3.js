@@ -3,7 +3,7 @@ import crypto from 'crypto';
 import uuid from 'uuid';
 import Hash from 'newchain-lib/lib/hash';
 import {fromPrivate, sign, decodeSignature} from 'newchain-lib/lib/account';
-import {hexToBytes, isHexStrict, sha3} from 'web3-utils';
+import {hexToBytes, isHexStrict, sha3} from 'newchain-web3-utils';
 import TransactionSigner from '../../__mocks__/TransactionSigner';
 import Accounts from '../../../src/Accounts';
 import Account from '../../../src/models/Account';
