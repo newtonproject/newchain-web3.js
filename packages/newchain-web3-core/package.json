@@ -1,7 +1,7 @@
 {
     "name": "newchain-web3-core",
     "namespace": "newchain",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Web3 core tools for sub packages. This is an internal package.",
     "repository": "https://github.com/xiawu/newchain-web3.js/tree/1.0/packages/newchain-web3-core",
     "license": "LGPL-3.0",
