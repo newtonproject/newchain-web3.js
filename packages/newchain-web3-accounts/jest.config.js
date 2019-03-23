@@ -5,6 +5,6 @@ module.exports = jestConfig({
     'isHexStrict': 'web3-utils',
     'Utils': 'web3-utils',
     'formatters': 'web3-core-helpers',
-    'EthAccount': 'eth-lib/lib/account',
+    'EthAccount': 'newchain-lib/lib/account',
     'scryptsy': 'scrypt.js'
 });

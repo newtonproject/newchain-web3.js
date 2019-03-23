@@ -1,16 +1,16 @@
 import scryptsy from 'scrypt.js';
 import crypto from 'crypto';
 import uuid from 'uuid';
-import Hash from 'eth-lib/lib/hash';
-import {fromPrivate, sign, decodeSignature} from 'eth-lib/lib/account';
+import Hash from 'newchain-lib/lib/hash';
+import {fromPrivate, sign, decodeSignature} from 'newchain-lib/lib/account';
 import {hexToBytes, isHexStrict, sha3} from 'web3-utils';
 import TransactionSigner from '../../__mocks__/TransactionSigner';
 import Accounts from '../../../src/Accounts';
 import Account from '../../../src/models/Account';
 
 // Mocks
-jest.mock('eth-lib/lib/account');
-jest.mock('eth-lib/lib/hash');
+jest.mock('newchain-lib/lib/account');
+jest.mock('newchain-lib/lib/hash');
 jest.mock('isHexStrict');
 jest.mock('hexToBytes');
 jest.mock('uuid');

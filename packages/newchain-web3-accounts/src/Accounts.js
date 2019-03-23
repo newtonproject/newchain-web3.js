@@ -23,10 +23,10 @@
 import isFunction from 'lodash/isFunction';
 import isObject from 'lodash/isObject';
 import isBoolean from 'lodash/isBoolean';
-import Hash from 'eth-lib/lib/hash';
-import RLP from 'eth-lib/lib/rlp';
-import Bytes from 'eth-lib/lib/bytes';
-import {encodeSignature, recover} from 'eth-lib/lib/account'; // TODO: Remove this dependency
+import Hash from 'newchain-lib/lib/hash';
+import RLP from 'newchain-lib/lib/rlp';
+import Bytes from 'newchain-lib/lib/bytes';
+import {encodeSignature, recover} from 'newchain-lib/lib/account'; // TODO: Remove this dependency
 import {hexToBytes, isHexStrict} from 'web3-utils'; // TODO: Use the VO's of a web3-types module.
 import {AbstractWeb3Module} from 'web3-core';
 import Account from './models/Account';
