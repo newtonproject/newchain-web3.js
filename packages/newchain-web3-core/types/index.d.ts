@@ -29,7 +29,7 @@ import {
     WebsocketProvider,
     WebsocketProviderOptions
 } from 'web3-providers';
-import {BN} from 'web3-utils';
+import {BN} from 'newchain-web3-utils';
 
 export class AbstractWeb3Module {
     constructor(
