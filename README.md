@@ -18,25 +18,25 @@ Please read the [documentation][docs] for more.
 ### Node
 
 ```bash
-npm install web3
+npm install newchain-newcweb3
 ```
 
 ### Yarn
 
 ```bash
-yarn add web3
+yarn add newchain-web3
 ```
 
 ### Meteor
 
 ```bash
-meteor npm install --save web3@1.x
+meteor npm install --save newchain-web3@0.x
 ```
 
 ## Usage
 
 ```js
-import Web3 from 'web3';
+import Web3 from 'newchain-web3';
 
 const web3 = new Web3('ws://localhost:8546');
 console.log(web3);
