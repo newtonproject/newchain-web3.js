@@ -18,7 +18,7 @@ Please read the [documentation][docs] for more.
 ### Node
 
 ```bash
-npm install newchain-newcweb3
+npm install newchain-web3
 ```
 
 ### Yarn
